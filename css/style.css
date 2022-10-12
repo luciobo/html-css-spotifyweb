@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 20px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
