@@ -10,6 +10,7 @@
     --secondary-color-light: #070B12;
     --secondary-color-storng: #282828;
     --primary-text-color: #282828;
+    --h-text-color: white;
 }
 
 
@@ -26,6 +27,22 @@ body {
 
 /* modifiche a tag */
 
+h2 {
+    color: var(--h-text-color);
+    font-size: 1.2rem;
+    padding: 2rem 0;
+}
+
+h4 {
+    color: var(--h-text-color);
+    text-align: center;
+
+}
+
+h6 {
+    text-align: center;
+}
+
 li {
     list-style: none;
     display: inline-block;
@@ -37,6 +54,25 @@ a {
     display: block;
     padding: .4rem;
 }
+
+/* width calc */
+
+.col-1-2 {
+    width: calc(100% / 2);
+}
+
+.col-1-4 {
+    width: calc(100% / 4);
+}
+
+.col-1-6 {
+    width: calc(100% / 6);
+}
+
+
+
+
+
 
 
 /* button */
@@ -54,8 +90,6 @@ button {
     }
 
 /* modifiche img */
-
-
 
 img {
     width: 100%;
@@ -77,6 +111,13 @@ img {
     padding-left: .5rem;
 }
 
+.padding-top-05 {
+    padding-top: .5rem;
+}
+
+.pad-1-rem {
+    padding: 1rem;
+}
 
 
 /* contenitori principali */
@@ -85,12 +126,28 @@ img {
 .top-container {
     flex-grow: 1;
     display: flex;
+    overflow: auto;
 }
 
 .main-container {
     flex-grow: 1;
     overflow: auto;
     background-color: var(--primary-color);
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1rem;
+}
+
+.col {
+    padding: 1rem;
+}
+
+.card {
+
 }
 
 /* sidebar */
@@ -155,7 +212,7 @@ img {
 }
 
 .link-main {
-    padding: .5rem;
+    padding: .5rem 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,15 +257,46 @@ media query
         display: block;
     }
 
-    
 }
 
 
 
 /* MD - medium */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+
+    /* width calc */
+
+.col-1-2-md {
+    width: calc(100% / 2);
+}
+
+.col-1-4-md {
+    width: calc(100% / 4);
+}
+
+.col-1-6-md {
+    width: calc(100% / 6);
+}
+
+}
 
 
 
 /* LG - large */
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+
+    /* width calc */
+
+.col-1-2-lg {
+    width: calc(100% / 2);
+}
+
+.col-1-4-lg {
+    width: calc(100% / 4);
+}
+
+.col-1-6-lg {
+    width: calc(100% / 6);
+}
+
+}
