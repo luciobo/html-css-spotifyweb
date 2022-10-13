@@ -215,6 +215,7 @@ img {
     align-items: center;
     background-color: var(--secondary-color-light);
     height: 75px;
+    padding-right: 1rem;
 }
 
 .link-main {
