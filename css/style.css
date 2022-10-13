@@ -104,6 +104,10 @@ img {
     flex-shrink: 0;
 }
 
+.sidebar-bottom .text-n-icon {
+    display: none;
+}
+
 .sidebar .sidebar-top  a {
     display: flex;
     align-items: center;
@@ -134,6 +138,11 @@ media query
         align-items: flex-start;
     }
 
+    .sidebar-top .first-img {
+        display: none;
+    }
+
+
     .sidebar-center .palylist-container {
         display: block;
     }
@@ -141,6 +150,11 @@ media query
     .sidebar-top .text-n-icon {
         display: block;
     }
+
+    .sidebar-bottom .text-n-icon {
+        display: block;
+    }
+
     
 }
 
