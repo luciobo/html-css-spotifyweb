@@ -9,7 +9,7 @@
     --secondary-color: #000000;
     --secondary-color-light: #070B12;
     --secondary-color-storng: #282828;
-    --primary-text-color: #282828;
+    --primary-text-color: #808286;
     --h-text-color: white;
 }
 
@@ -30,13 +30,17 @@ body {
 h2 {
     color: var(--h-text-color);
     font-size: 1.2rem;
-    padding: 2rem 0;
+    padding: 1rem 0 2rem;
 }
 
 h4 {
     color: var(--h-text-color);
     text-align: center;
 
+}
+
+h5 {
+    padding-bottom: .7rem;
 }
 
 h6 {
@@ -71,10 +75,6 @@ a {
 
 
 
-
-
-
-
 /* button */
 
 button {
@@ -99,6 +99,12 @@ img {
 .img-small {
     width: 28px;
     display: block;
+}
+
+.img-rounded {
+    width: 100%;
+    display: block;
+    border-radius: 50%;
 }
 
 /* padding */
