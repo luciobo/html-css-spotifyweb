@@ -59,6 +59,7 @@ a {
     padding: .4rem;
 }
 
+
 /* width calc */
 
 .col-1-2 {
@@ -256,13 +257,13 @@ img {
 
 .volume-bar-small {
     background-color: var(--primary-text-color);
-    padding: .2rem 4rem;
+    padding: .2rem 3rem;
     border-radius: 10px;
 }
 
 .volume-bar-large {
     background-color: var(--primary-text-color);
-    padding: .2rem 8rem;
+    padding: .2rem 12rem;
     border-radius: 10px;
 }
 
