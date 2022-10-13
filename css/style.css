@@ -43,7 +43,7 @@ img {
 }
 
 .img-small {
-    width: 25px;
+    width: 28px;
     display: block;
 }
 
@@ -94,6 +94,10 @@ img {
 
 .sidebar-top .text-n-icon {
     display: none;
+}
+
+.logo-sidebar {
+    padding-bottom: 1rem;
 }
 
 .sidebar-center {
