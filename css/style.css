@@ -244,6 +244,7 @@ img {
     flex-shrink: 0;
     height: 75px;
     background-color: var(--secondary-color-storng);
+    overflow: auto;
 }
 
 .nav-container {
@@ -272,9 +273,13 @@ img {
     color: var(--h-text-color);
 }
 
+.nav-right .nav-but a {
+    color: var(--h-text-color);
+}
+
 .volume-bar {
     background-color: var(--primary-text-color);
-    padding: .2rem 3rem;
+    height: .4rem;
     border-radius: 10px;
 }
 
@@ -282,6 +287,11 @@ img {
     height: .4rem;
     background-color: var(--primary-text-color);
     border-radius: 10px;
+}
+
+.flex-gorw-1 {
+    flex-grow: 1;
+    max-width: 5rem;
 }
 
 
