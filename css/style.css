@@ -249,6 +249,13 @@ img {
     align-items: center;
 }
 
+.plus-box {
+    border-radius: 8px;
+    height: 3rem;
+    width: 3rem;
+    background-color: var(--secondary-color-storng);
+}
+
 
 /* madifiche main */
 
@@ -267,6 +274,7 @@ img {
 }
 
 .link-main {
+    font-size: .8rem;
     margin-top: 75px;
     padding: .5rem 6rem;
     display: flex;
@@ -339,7 +347,7 @@ img {
 
 .flex-gorw-1 {
     flex-grow: 1;
-    max-width: 5rem;
+    max-width: 8rem;
 }
 
 
