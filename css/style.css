@@ -229,9 +229,15 @@ img {
     background-color: var(--secondary-color-light);
     height: 75px;
     padding-right: 1rem;
+    position: fixed;
+    top: 0;
+    left: 40px;
+    right: 0;
+    z-index: 10;
 }
 
 .link-main {
+    margin-top: 75px;
     padding: .5rem 6rem;
     display: flex;
     justify-content: center;
@@ -310,6 +316,10 @@ media query
 
     .sidebar-top .first-img {
         display: none;
+    }
+
+    .head-main {
+        left: 200px;
     }
 
 
