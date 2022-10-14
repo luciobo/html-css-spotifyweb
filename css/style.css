@@ -30,10 +30,11 @@ body {
 h2 {
     color: var(--h-text-color);
     font-size: 1.2rem;
-    padding: 1rem 0 2rem;
+    padding: 1rem ;
 }
 
 h4 {
+    font-size: .8rem;
     color: var(--h-text-color);
     text-align: center;
 
@@ -106,6 +107,7 @@ img {
     width: 100%;
     display: block;
     border-radius: 50%;
+    overflow: auto;
 }
 
 .img-bottom-bar {
@@ -155,7 +157,8 @@ img {
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: -1rem;
+    margin: 0 -1rem ;
+    overflow: auto;
 }
 
 .col {
@@ -255,15 +258,29 @@ img {
     align-items: center;
 }
 
-.volume-bar-small {
+.nav-center {
+    flex-grow: 1;
+    max-width: 20rem;
+}
+
+.center-bar-comand {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-center .center-bar-comand a {
+    color: var(--h-text-color);
+}
+
+.volume-bar {
     background-color: var(--primary-text-color);
     padding: .2rem 3rem;
     border-radius: 10px;
 }
 
-.volume-bar-large {
+.progress-bar {
+    height: .4rem;
     background-color: var(--primary-text-color);
-    padding: .2rem 12rem;
     border-radius: 10px;
 }
 
